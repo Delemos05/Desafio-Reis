@@ -14,6 +14,7 @@ API REST para gerenciamento de tarefas pessoais, desenvolvida em NestJS + TypeSc
 - [dotenv](https://github.com/motdotla/dotenv) para variáveis de ambiente
 - Jest para testes unitários
 - Logger do NestJS para logs estruturados
+- Postman para testes manuais
 
 ---
 
@@ -126,16 +127,6 @@ Este projeto já implementa as funcionalidades básicas do desafio, além de tes
 JWT_SECRET=uma_chave_secreta_segura
 DB_PATH=db.sqlite
 ```
-
----
-
-## 👨‍💻 Como contribuir
-
-1. Fork este repositório
-2. Crie sua branch: `git checkout -b minha-feature`
-3. Commit suas alterações: `git commit -m 'feat: minha feature'`
-4. Push para a branch: `git push origin minha-feature`
-5. Abra um Pull Request
 
 ---
 
