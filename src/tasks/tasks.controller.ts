@@ -2,8 +2,8 @@ import { Controller, Get, Post, Body, Param, Put, Delete, Query, UseGuards, Logg
 import { TasksService } from './tasks.service';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { UpdateTaskDto } from './dto/update-task.dto';
-import { JwtAuthGuard } from '../auth/jwt-auth.guard';
-import { GetUser } from '../auth/get-user.decorator';
+import { JwtAuthGuard } from '../common/guards/jwt-auth.guard';
+import { GetUser } from '../common/decorators/get-user.decorator';
 
 @UseGuards(JwtAuthGuard)
 @Controller('tasks')
